@@ -1,0 +1,104 @@
+public class Ubigeo
+{
+	private String depa;
+	private String prov;
+	private String dis;
+
+	public void setDepartamento(String d)
+	{
+		this.depa = depa;
+	}
+
+	public String getDepartamento()
+	{
+		return depa;
+	}
+
+	public void setProvincia(String p)
+	{
+		this.prov = prov;
+	}
+
+	public String getProvincia()
+	{
+		return prov;
+	}
+    public void setDistrito(String p)
+	{
+		this.dis = dis;
+	}
+
+	public String getDistrito()
+	{
+		return dis;
+	}
+}
+package provYdis;
+import java.util.Scanner; 
+
+public class Main
+{
+	public static void main(String[]args)
+	{
+		Scanner leer = new Scanner(System.in);
+		int op;
+		int op2
+		System.out.printn("Seleccione su departamento...");
+		System.out.printn("1. Huanuco");
+		System.out.printn("2. Lima");
+		op = leer.nextInt();
+
+		if(op == 1)
+		{
+			Ubigeo a[] = new Ubigeo[4];
+
+		System.out.printn("Seleccione la opcion a la que usted es procediente...");
+
+
+		u[0].setProvincia("1. Huanuco");
+		u[1].setProvincia("2. Puerto Inca");
+		/*u[2].setProvincia("3. Leoncio Prado");
+		u[3].setProvincia("4. Maranion");
+		u[4].setProvincia("5.Huamalies");
+		u[5].setProvincia("6. Pachitea");
+		u[6].setProvincia("7. Lauricocha");
+		u[7].setProvincia("8. Huacaybamba");
+		u[8].setProvincia("9. Ambo");
+		u[9].setProvincia("10.Dos de Mayo");
+		u[10].setProvincia("11. Yarowillca");*/
+        op2 = leer.nextInt();
+
+		if(op2 == 1)
+
+		{
+		System.out.printn("1. Huanuco");
+		System.out.printn("2. Amarilis");
+	    }
+
+		if(op2 == 2)
+		{	System.out.printn("1. Puerto Inca");
+		    System.out.printn("2. Codo del Pozuzo");
+		}
+	}
+	if(op == 2)
+	{
+		System.out.printn("Seleccione la opcion a la que usted es procediente...");
+		System.out.printn("Barranca");
+		System.out.printn("Caniete");
+
+		op2 = leer.nextInt();
+
+		if(op2 == 1)
+		{
+			System.out.printn("1. Barranca");
+			System.out.printn("2. Supe");
+		}
+
+		if(op2 == 2)
+		{
+			System.out.printn("1. Lunahuana");
+			System.out.printn("Asia");
+		}
+	}
+	}
+}
